@@ -33,6 +33,7 @@ public class AdminMain extends ListActivity  {
     String Getpassword;
 
     String TAG = "sleepy";
+    String otherstr = "gaga";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
