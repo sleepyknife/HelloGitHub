@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+    android:id="@+id/passwordText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="54dp"
+    android:text="Password"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_below="@+id/regusernameInput"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/passwordText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:text="ValidatePassword"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/regpasswordInput"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/regusernameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/usernameText"
+        android:width="180dp" />
+
+    <EditText
+        android:id="@+id/regpasswordInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="180dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/passwordText"
+        android:layout_alignLeft="@+id/regusernameInput"
+        android:layout_alignStart="@+id/regusernameInput" />
+
+    <EditText
+        android:id="@+id/regpasswordInput2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="180dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/passwordText2"
+        android:layout_alignLeft="@+id/regusernameInput"
+        android:layout_alignStart="@+id/regusernameInput" />
+
+    <Button
+        android:id="@+id/regokBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/passwordText2"
+        android:layout_marginTop="70dp"
+        android:onClick="regokBtnClicked"
+        android:text="Regist" />
+
+    <Button
+        android:id="@+id/regcancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:onClick="regcancelBtnClicked"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/regokBtn"
+        android:text="cancel" />
+
+</RelativeLayout>

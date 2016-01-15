@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="iac.sleepy.loginsystem">
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Holo">
+        <activity
+            android:name=".LoginMain"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistMain"
+            android:label="RegistPage"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        <activity
+            android:name=".NormalMain"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        <activity
+            android:name=".ExceptMain"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        <activity
+            android:name=".AdminMain"
+            android:label="Adminpage"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+    </application>
+
+</manifest>

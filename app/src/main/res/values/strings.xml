@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginSystem</string>
+    <string name="action_settings"> </string>
+    <string name="exceptText">Login Error!!</string>
+    <string name="normalText">Welcome back</string>
+    <string name="adminText">Logout</string>
+    <string name="RegBtnText">Regist</string>
+    <string name="LoginBtnText">Login</string>
+    <string name="PasswordText">Password</string>
+    <string name="UsernameText">Username</string>
+</resources>
