@@ -32,7 +32,7 @@ public class AdminMain extends ListActivity  {
     String Getusername;
     String Getpassword;
 
-
+    String TAG = "sleepy";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,6 +90,13 @@ public class AdminMain extends ListActivity  {
         };
         getListView().setOnItemLongClickListener(listener);
     }
+
+
+
+
+
+
+
 
 
 
