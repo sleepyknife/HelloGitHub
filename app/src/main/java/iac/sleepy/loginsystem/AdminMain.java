@@ -48,8 +48,8 @@ public class AdminMain extends ListActivity  {
 
         //Get the imformation from LoginMain
         Bundle RevData = getIntent().getExtras();
-        Getusername = RevData.getString("username");
-        Getpassword = RevData.getString("password");
+        //Getusername = RevData.getString("username");
+        //Getpassword = RevData.getString("password");
 
         // Set up the Item Long Click Listener
         AdapterView.OnItemLongClickListener  listener = new AdapterView.OnItemLongClickListener() {
